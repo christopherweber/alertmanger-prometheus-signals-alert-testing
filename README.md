@@ -66,8 +66,7 @@ To restart the python_exporter"
 Once Prometheus fires the alert, Alertmanager will process this alert and send an event to the configured webhook in Signals.
 
 ### 9. Customization
-This setup is customizable. You can adjust the alerting rules and Alertmanager configuration to suit your monitoring and alerting needs.
+This setup is customizable. You can adjust the alerting rules and Alertmanager configuration via the alert.rules.yml file.
 
 ### Notes
 Remember to keep your webhook URL secure and not expose it in public repositories or logs.
-You can customize the alert as much as you would like via the alert.rules.yml file.
