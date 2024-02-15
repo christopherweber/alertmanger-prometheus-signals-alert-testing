@@ -58,6 +58,8 @@ To test the alerting functionality, you can simulate an outage by stopping the p
 
 After approximately 5 minutes, Prometheus will detect that the python_exporter is down and will fire an alert. This alert should then be visible in the Prometheus UI under the 'Alerts' tab.
 
+Note: In Prometheus go to Status => Targets to see that python_exporter's state. This is different from the Alerts page which will go "Pending" to "Firing" to AlertManager.
+
 To restart the python_exporter"
 
 ```docker-compose start python_exporter```
